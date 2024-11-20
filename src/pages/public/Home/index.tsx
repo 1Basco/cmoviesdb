@@ -1,12 +1,11 @@
 import { useTMDBApi } from "@/app/hooks/api";
 import useListMovies from "@/app/hooks/listMovies";
-import PrimaryButton from "@/resources/components/Buttons/Primary";
 import SquareButton from "@/resources/components/Buttons/Square";
 import SearchInput from "@/resources/components/Forms/SearchInput";
 import MovieCard from "@/resources/components/MovieCard";
 import Pagination from "@/resources/components/Pagination";
 import TagCard from "@/resources/components/TagCard";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function HomePage(): JSX.Element {
   const [showTags, setShowTags] = useState(false);

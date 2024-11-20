@@ -1,7 +1,7 @@
-# 1. Clonar o repositório
+## 1. Clonar o repositório
 
 ```bash
-git clone https://seu-repositorio.git
+git clone https://github.com/1Basco/cmoviesdb.git
 cd cmoviesdb
 ```
 

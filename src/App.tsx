@@ -1,6 +1,5 @@
-import { Icon } from "@iconify/react";
-import PublicRouter from "./routes/public";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import PublicRouter from "./routes/public";
 
 const queryClient = new QueryClient();
 function App() {
